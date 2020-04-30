@@ -7,7 +7,7 @@ function loadFixture(path) {
     success: function(result) {
       html = result;
     },
-    async: false
+    async: true
   });          
   return $.parseHTML(html);
 }
